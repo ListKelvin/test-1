@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: roboto, sans-serif;
+}
+nav {
+  /* background-color: rgb(2, 3, 3); */
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  /* padding: 20px 0; */
+}
+.logo {
+  display: inline-block;
+  margin-right: 30%;
+  padding: 20px 20px 0 100px;
+}
+.link {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+}
+.link span {
+  padding: 5px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.link button {
+  padding: 15px;
+  background-color: aquamarine;
+  border: hidden;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.active {
+  color: white !important;
+}
+.bg {
+  background-image: url(https://themesdesign.in/floaks/layouts/images/bg-3.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.overplay {
+  position: absolute;
+  background-color: rgba(110, 226, 235, 0.2);
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
